@@ -1,0 +1,156 @@
+@font-face {
+  font-family: popreg;
+  src: url("/src/assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: popbo;
+  src: url("/src/assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: popsemibold;
+  src: url("/src/assets/fonts/Poppins-SemiBold.ttf");
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.getstarted {
+  background: url("/src/assets/images/backgroundimg.png");
+}
+.logodiv {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.heading {
+  color: rgba(241, 88, 34, 1);
+  font-size: 34px;
+  font-family: popbo;
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+.clinicpara {
+  color: rgba(189, 189, 189, 1);
+  font-size: 14px;
+  font-family: popreg;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.see {
+  color: #000;
+  font-family: popbo;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.mine {
+  color: rgba(130, 130, 130, 1);
+  font-size: 13px;
+  font-family: popreg;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.startbtn {
+  background: #f15822;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 58px;
+  outline: none !important;
+  color: #fff;
+  font-family: popreg;
+}
+.getbuttons {
+  text-align: center;
+  padding-bottom: 68px;
+}
+.returnbtn {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 48px;
+  outline: none;
+  background: transparent;
+  color: #f15822;
+  border: 2px solid #f15822;
+  outline: none !important;
+  margin-left: 15px;
+  font-family: popreg;
+}
+.university {
+  padding-top: 40px;
+  margin-bottom: 60px;
+}
+.teamspara {
+  color: rgba(130, 130, 130, 1);
+  padding-bottom: 50px;
+  padding-top: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.uniimages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.Doucoments {
+  background: url("/src/assets/images/Rectangle\ 2.png");
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.background {
+  background: url("/src/assets/images/Rectangle\ 2.png");
+}
+.doucoment {
+  width: 40%;
+}
+.textdou {
+  width: 70%;
+  padding-bottom: 20px;
+}
+.aboutus {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.aboutimg img {
+  padding-bottom: 35px;
+}
+.aboutimg {
+  text-align: center;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about_tittle {
+  padding-bottom: 20px;
+  font-family: popbo;
+  font-size: 34px;
+}
+.aboutpara {
+  color: rgba(189, 189, 189, 1);
+  font-family: popreg;
+  font-size: 14px;
+  line-height: 27px;
+}
+.learn {
+  color: #f15822;
+  font-family: popbo;
+  text-align: center;
+  font-weight: 600;
+}
