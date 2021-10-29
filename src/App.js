@@ -5,6 +5,8 @@ import Registration from "./View/Registration";
 import Login from "./View/Login";
 import Introducation from "./ClinicalTest/Introducation";
 import IntroBegain from "./ClinicalTest/IntroBegain";
+import WhatYouAllLearn from "./ClinicalTest/WhatYouAllLearn";
+import Mcqs from "./ClinicalTest/Mcqs.";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/intro" component={Introducation} />
         <Route path="/intro-begain" component={IntroBegain} />
+        <Route path="/whatyou" component={WhatYouAllLearn} />
+        <Route path="/mcqs" component={Mcqs} />
       </Switch>
     </div>
   );
