@@ -100,6 +100,7 @@ a:hover {
 .uniimages {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .maindiv {
   display: flex;
@@ -118,11 +119,17 @@ a:hover {
   background: url("/src/assets/images/Rectangle\ 2.png");
 }
 .doucoment {
+  display: flex;
+  align-items: center;
   width: 40%;
+  flex-direction: column;
 }
 .textdou {
   width: 70%;
   padding-bottom: 20px;
+  color: #828282;
+  font-family: popbo;
+  text-align: center;
 }
 .aboutus {
   padding-top: 60px;
@@ -153,4 +160,99 @@ a:hover {
   font-family: popbo;
   text-align: center;
   font-weight: 600;
+}
+.footer {
+  background: #fcd5c7;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+.footeritems {
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  width: 55%;
+  align-items: center;
+  height: 56px;
+  margin: 10px 0;
+}
+.item {
+  color: #f15822;
+  font-size: 14px;
+  font-family: popreg;
+  font-weight: 700;
+}
+@media (max-width: 768.98px) {
+}
+.unii {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.uniimages {
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maindiv {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.doucoment {
+  padding-bottom: 40px;
+  width: 50%;
+}
+.getbuttons {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media (max-width: 768.98px) {
+  .heading {
+    font-size: 24px;
+    width: 90%;
+  }
+  .clinicpara {
+    width: 90%;
+  }
+  .getbuttons {
+    padding-top: 25px;
+    padding-bottom: 40px;
+  }
+  .returnbtn {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .startbtn {
+    padding: 12px 62px;
+  }
+  .teamspara {
+    width: 90%;
+  }
+  .Doucoments {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .doucoment {
+    width: 90%;
+    padding-bottom: 25px;
+  }
+  .aboutimg {
+    width: 90%;
+  }
+  .footerlogo {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+  }
+  .footeritems {
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }
