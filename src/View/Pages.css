@@ -1,0 +1,139 @@
+.login_tittle {
+  color: #0d63f3;
+  font-family: popbo;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.loginpage {
+  padding: 100px;
+  background-color: #fff6f3;
+  height: 100vh;
+}
+
+.logwidth {
+  width: 98%;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logbttn {
+  float: right;
+}
+.loginbrand {
+  font-family: popbo;
+  color: rgba(29, 43, 79, 1);
+  font-size: 18px;
+}
+.loginp {
+  color: #bdbdbd;
+}
+.logwidth::placeholder {
+  font-size: 13px;
+  font-family: popreg;
+  color: #afafaf;
+}
+
+.btnlog2 {
+  float: right;
+  margin-top: -26px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 34px;
+  background-color: #f15822;
+  color: #fff;
+  font-family: popbo;
+  font-size: 14px;
+  margin-right: 28px;
+}
+.btnlog {
+  float: right;
+  margin-top: -22px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 34px;
+  background-color: #0d63f3;
+  color: #fff;
+  font-family: popbo;
+  font-size: 14px;
+}
+.registr {
+  color: #0d63f3;
+  font-family: popbo;
+}
+.hhhp {
+  margin-bottom: 15px;
+}
+.logwi::placeholder {
+  font-size: 13px;
+  font-family: popreg;
+  color: #afafaf;
+}
+.logwi {
+  width: 48%;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.margin {
+  margin-bottom: 15px;
+}
+.textlog {
+  color: #f15822;
+  font-family: popbo;
+  margin-top: 15px;
+}
+@media (max-width: 576.98px) {
+  .btnlog2 {
+    margin-top: 0;
+    margin-right: 34px;
+    padding: 13px 115px;
+  }
+  .textlog {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .logwi {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+  }
+  .logwidth {
+    width: 100%;
+  }
+  .loginpage {
+    padding: 18px !important;
+  }
+  .btnlog {
+    margin-top: -32px;
+  }
+  .margin {
+    margin-bottom: 0 !important;
+  }
+  .manan {
+    padding-bottom: 0 !important;
+  }
+  .loginp {
+    margin-bottom: 0;
+  }
+  .login_tittle {
+    text-align: center;
+  }
+  .loginbrand {
+    text-align: center;
+  }
+  .loginp {
+    text-align: center;
+  }
+}

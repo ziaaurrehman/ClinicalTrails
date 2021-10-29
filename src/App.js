@@ -1,17 +1,17 @@
 import React from "react";
-import Getstarted from "./Components/GetStarted/Getstarted";
-import University from "./Components/Universitys/University";
-import Doucoments from "./Components/Doucoments/Doucoments";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import Footer from "./Components/Footer/Footer";
+import { Route, Switch } from "react-router-dom";
+import LandingPage from "./LandingPage";
+import Registration from "./View/Registration";
+import Login from "./View/Login";
+
 function App() {
   return (
     <div>
-      <Getstarted />
-      <University />
-      <Doucoments />
-      <AboutUs />
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/registration" component={Registration} />
+        <Route path="/login" component={Login} />
+      </Switch>
     </div>
   );
 }
