@@ -1,4 +1,5 @@
 import React from "react";
+import StepButtons from "./StepButtons";
 
 const WhatYouAllLearn = () => {
   return (
@@ -14,13 +15,7 @@ const WhatYouAllLearn = () => {
           <div className="step_para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
-          <div className="stepbtns">
-            <button style={{ color: "#f15822" }} className="stepbtn">
-              Begin
-            </button>
-            <button className="stepbtn">What you’ll learn</button>
-            <button className="stepbtn">Course Content</button>
-          </div>
+          <StepButtons />
         </div>
         <div className="questions">
           <div className="trueimg">

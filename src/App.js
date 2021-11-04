@@ -7,6 +7,9 @@ import Introducation from "./ClinicalTest/Introducation";
 import IntroBegain from "./ClinicalTest/IntroBegain";
 import WhatYouAllLearn from "./ClinicalTest/WhatYouAllLearn";
 import Mcqs from "./ClinicalTest/Mcqs.";
+import CourseContent from "./ClinicalTest/CourseContent";
+import TrailPass from "./ClinicalTest/TrailPass";
+import NeedImprovement from "./ClinicalTest/NeedImprovement";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/intro-begain" component={IntroBegain} />
         <Route path="/whatyou" component={WhatYouAllLearn} />
         <Route path="/mcqs" component={Mcqs} />
+        <Route path="/course-content" component={CourseContent} />
+        <Route path="/trailpass" component={TrailPass} />
+        <Route path="/need-imrovement" component={NeedImprovement} />
       </Switch>
     </div>
   );

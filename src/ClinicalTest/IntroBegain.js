@@ -1,4 +1,6 @@
 import React from "react";
+import StepButtons from "./StepButtons";
+import { Link } from "react-router-dom";
 
 const IntroBegain = () => {
   return (
@@ -14,13 +16,7 @@ const IntroBegain = () => {
           <div className="step_para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
-          <div className="stepbtns">
-            <button style={{ color: "#f15822" }} className="stepbtn">
-              Begin
-            </button>
-            <button className="stepbtn">What you’ll learn</button>
-            <button className="stepbtn">Course Content</button>
-          </div>
+          <StepButtons />
         </div>
         <div className="videoimg">
           <div className="playbtnn">
@@ -33,7 +29,11 @@ const IntroBegain = () => {
             <div className="absotext">Next - MCQ Exam</div>
             <div className="absobtn">
               <button className="btns1">Watch again</button>
-              <button className="btns">Next</button>
+
+              <Link to="/mcqs">
+                {" "}
+                <button className="btns">Next</button>
+              </Link>
             </div>
           </div>
         </div>

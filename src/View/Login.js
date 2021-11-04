@@ -43,7 +43,7 @@ const Login = () => {
                 </div>
                 <div style={{ marginTop: "40px" }}>
                   <div className="textlog">I do not have an account yet.</div>
-                  <Link to="/dashboard">
+                  <Link to="/intro">
                     <button className="btnlog2" type="submit">
                       Login
                     </button>

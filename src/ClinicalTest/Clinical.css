@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 .loginpage {
   padding-top: 20px;
@@ -30,6 +31,7 @@
   font-weight: 800;
   margin-bottom: 20px;
 }
+
 .step_para {
   color: #bdbdbd;
   font-family: popreg;
@@ -59,6 +61,10 @@
   border-radius: 0px 0px 10px 10px;
   margin-top: -98px;
 }
+.active1 {
+  color: #f15822;
+  font-family: popbo;
+}
 .absoflex {
   display: flex;
   justify-content: space-between;
@@ -66,6 +72,7 @@
   padding-right: 30px;
   padding-top: 40px;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 .absotext {
   color: #fff;
@@ -98,6 +105,7 @@
   color: rgba(51, 51, 51, 1);
   font-family: popreg;
   margin-bottom: 10px;
+  font-size: 13px;
 }
 .marks {
   color: #f15822;
@@ -114,4 +122,80 @@
 }
 .custom-control-label::before {
   background-color: darkorange;
+}
+.headingcontent {
+  font-family: popbo;
+  color: black;
+  font-size: 20px;
+}
+.paracontent {
+  font-family: popreg;
+  font-weight: 600;
+  font-size: 13px;
+  color: #333333;
+}
+.course_content {
+  margin-bottom: 25px;
+}
+.paracontent {
+  font-family: popreg;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 23px;
+  color: #333333;
+}
+.middleitems {
+  text-align: center;
+}
+.trailpass {
+  color: #f15822;
+  font-size: 50px;
+  font-family: popbo;
+  padding-top: 30px;
+}
+.trail_para {
+  font: 13px;
+  font-family: popreg;
+  color: #333333;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+.Retakebtn {
+  border: none;
+  background-color: transparent;
+  color: #f15822;
+  font-family: popbo;
+}
+.Continuebtn {
+  color: #fff;
+  background-color: #f15822;
+  font-family: popbo;
+  border: none;
+  padding: 10px 50px;
+  margin-left: 35px;
+  border-radius: 10px;
+}
+#exampleColorInput {
+  background-color: #f15822 !important;
+}
+@media (max-width: 768.98px) {
+  .stepbtns {
+    margin-top: 20px;
+  }
+  .questions {
+    padding-top: 10px;
+  }
+  .stapperheading {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 576.98px) {
+  .mcqs_para {
+    padding-top: 20px;
+  }
+  .vidimg {
+    height: 274px;
+  }
 }

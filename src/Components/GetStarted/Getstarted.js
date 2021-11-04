@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 const Getstarted = () => {
   return (
@@ -20,7 +21,9 @@ const Getstarted = () => {
         </div>
         <div className="mine">I’m here to</div>
         <div className="getbuttons">
-          <button className="startbtn">Get started</button>
+          <Link to="/login">
+            <button className="startbtn">Get started</button>
+          </Link>
           <button className="returnbtn">Returning user</button>
         </div>
       </div>
